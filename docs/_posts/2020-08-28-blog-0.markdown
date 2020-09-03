@@ -7,9 +7,9 @@ categories: jekyll installation on Ubuntu
 ---
 # Setting up Jekyll on Ubuntu
 
-Jekyll is a static site generator where we could write text in our favorite markup language and it uses layouts
+<p>Jekyll is a static site generator where we could write text in our favorite markup language and it uses layouts
 to create a static website. 
-
+</p>
 There are few pre-requisite installation required before the installing Jekyll on Ubuntu.
 
 # Step 1: Install Jekyll on Ununtu 
