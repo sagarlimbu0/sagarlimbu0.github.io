@@ -7,20 +7,20 @@ categories: jekyll installation on Ubuntu
 ---
 # Setting up Jekyll on Ubuntu
 
-<p>Jekyll is a static site generator where we could write text in our favorite markup language and it uses layouts
+Jekyll is a static site generator where we could write text in our favorite markup language and it uses layouts
 to create a static website. 
-</p>
+
 There are few pre-requisite installation required before the installing Jekyll on Ubuntu.
 
 # Step 1: Install Jekyll on Ununtu 
 
-'sudo apt-get update'
-'sudo apt-get upgrade -y'
+* 'sudo apt-get update'
+* 'sudo apt-get upgrade -y'
 
 Since Jekyll requires Ruby installation. We need to make sure Ruby development environemtn which includes
 libraries. 
 
-'sudo apt-get install ruby-full build-essential zlib1g-dev'
+* 'sudo apt-get install ruby-full build-essential zlib1g-dev'
 
 # Step 2: Configuring gem installation path
 
@@ -34,4 +34,17 @@ Therefore, by entering below commands we can set up a gem installation directory
 
 # Step 3:
 
-'gem install Jekyll bundler'
+* 'gem install Jekyll bundler'
+
+# Running GitHub Page
+
+In the github repository you can select Settings and see the link assinged by the 'Github pages'.
+	* Your site is published at <your git repository name>
+
+You should select the right branch and folder where new Jekyll site has been created.
+
+# Problems with loading page from the link assined by the Github pages
+
+We need to edit the '_config.yml' file from the new site created by the Jekyll. We need to uncomment line #15 
+if you have created your new jekyll site on other branch other than Master branch.
+
