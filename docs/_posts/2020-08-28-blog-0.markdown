@@ -27,10 +27,10 @@ libraries.
 According to jekyll site for installing RUBY, it recomemends to avoid installation of Ruby Gems as the root user.
 Therefore, by entering below commands we can set up a gem installation directory to USER account.
 
-'echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc'
-'echo 'export GEM_HOME= "$HOME/gems"' >> ~/.bashrc'
-'echo 'export PATH= "$HOME/gems/bin: $PATH"' >> ~/.bashrc'
-'source ~./bashrc'
+* 'echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc'
+* 'echo 'export GEM_HOME= "$HOME/gems"' >> ~/.bashrc'
+* 'echo 'export PATH= "$HOME/gems/bin: $PATH"' >> ~/.bashrc'
+* 'source ~./bashrc'
 
 # Step 3:
 
