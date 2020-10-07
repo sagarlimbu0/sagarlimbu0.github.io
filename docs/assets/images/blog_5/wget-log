@@ -1,0 +1,13 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/limbu/.wget-hsts'. HSTS will be disabled.
+--2020-10-07 11:40:55--  https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFH3al2NirKU8P2dMwwGcC3_yxDO_9_yYSiA
+Resolving encrypted-tbn0.gstatic.com (encrypted-tbn0.gstatic.com)... 142.250.68.14, 2607:f8b0:4007:801::200e
+Connecting to encrypted-tbn0.gstatic.com (encrypted-tbn0.gstatic.com)|142.250.68.14|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7346 (7.2K) [image/png]
+Saving to: ‘mysql_installer.png’
+
+mysql_installer.png          0%[                                        ]       0  --.-KB/s               mysql_installer.png        100%[=======================================>]   7.17K  --.-KB/s    in 0s      
+
+2020-10-07 11:40:56 (23.1 MB/s) - ‘mysql_installer.png’ saved [7346/7346]
+
