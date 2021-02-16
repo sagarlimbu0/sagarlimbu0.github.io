@@ -1,0 +1,60 @@
+---
+layout: post
+title: 'Blog 2: AWS EC2 Instance Setup'
+date: 2020-09-09 03:19:20 -0700
+categories: AWS
+---
+ 
+# Amazon EC2 Instance
+ An EC2 Instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the 
+Amazon Web Services (AWS) infrastructure. It is designed to make web-scale cloud computing easier for developers.
+Amazon EC2's simple web service interface allows us to choose the best optimal configureation for the Amazon Machine
+Image (AMI). It further provides with complete control of your computing resources that meets the best requirement
+for runing cloud environment
+
+In this blog, I will try to show the steps for Launching a EC2 instance:
+
+> * Aws_ami
+> * Selecting Instance Type
+> * Security Groups
+> * EC2 termination
+
+# AWS Management Console
+ The AWS Management Console is the UI for a secure, easy-to-access and web-based portal for navigating different 
+AWS Services
+ 
+![AWS home](/assets/images/blog_2/aws_console.png)
+
+# AWS AMI
+ An AWS Amazon Machine Image is a template for software configuration which includes OS, applicaton server, and applications
+required to launch your instance. There are different AMI you can choose for your running instance. AWS Marketplace also
+provides different AMIs. We will select the free-tier AMI for this tutorial.
+
+![AWS AMI](/assets/images/blog_2/select_ami.png)
+
+# Launching and Selecting the Instance Type
+ After Launching new Instance we can select diferrent types of Instances based on storage, memory, Network perofrmance,
+Type, vCPUs. We can select the free Instance type for the tutorial.
+
+![Instance Type](/assets/images/blog_2/instance_type.png)
+
+![Storage](/assets/images/blog_2/storage.png)
+
+# Selecting the Security Groups
+ When launching new AWS AMI instance we also need to specify security groups. A security group acts as a virtual firewall
+for you instance to contorl inbound and outbound traffic. We can assign upto five security groups to the instance.
+>NOTE: Security groups act at the instance level, not the subnet level whereas Network ACLs are tied to subnet level 
+
+![Security Groups](/assets/images/blog_2/security_groups.png)
+
+# Key Pair
+ After selecting the appropriate instance type and configuratoin settings, we have the option to select an existing
+key pair or create a new key pair. A key pair consisits of public key that AWS stores, and a private key file that you
+store. Together, they allow you to connect your instance securely.
+
+![Key Pair](/assets/imagesfall_20/fall_20//blog_2/key_pair.png) 
+
+# Checking the EC2 Instance Status
+ We can view the status for the existing and new launched EC2 instance on the EC2 Dashboard. 
+
+![instance_status](/assets/images/blog_2/instance_status.png)
